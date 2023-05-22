@@ -33,6 +33,7 @@ import kotlinx.coroutines.launch
 
 @Composable
 fun MainCard() {
+
     Column(
         modifier = Modifier
             .padding(5.dp)
@@ -64,6 +65,7 @@ fun MainCard() {
                     )
                 }
                 Text(
+
                     text = "Madrid",
                     style = TextStyle(fontSize = 24.sp),
                     color = Color.White
